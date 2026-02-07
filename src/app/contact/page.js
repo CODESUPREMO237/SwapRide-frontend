@@ -53,8 +53,8 @@ export default function ContactPage() {
                   <Mail className="w-6 h-6 text-blue-600 mt-1 mr-3" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <a href="mailto:support@swapride.com" className="text-blue-600 hover:text-blue-800">
-                      support@swapride.com
+                    <a href="mailto:tchabeustephane2@gmail.com" className="text-blue-600 hover:text-blue-800">
+                      tchabeustephane2@gmail.com
                     </a>
                   </div>
                 </div>
@@ -63,8 +63,8 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-blue-600 mt-1 mr-3" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <a href="tel:+1234567890" className="text-blue-600 hover:text-blue-800">
-                      +1 (234) 567-890
+                    <a href="tel:+237679398551" className="text-blue-600 hover:text-blue-800">
+                      +237 679 398 551
                     </a>
                   </div>
                 </div>
@@ -74,9 +74,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900">Address</h3>
                     <p className="text-gray-600">
-                      123 Swap Street<br />
-                      San Francisco, CA 94105<br />
-                      United States
+                      Tiko, Cameroon
                     </p>
                   </div>
                 </div>

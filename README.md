@@ -516,7 +516,7 @@ MIT License - See LICENSE file for details
 For issues or questions:
 - Check `FRONTEND_IMPLEMENTATION_GUIDE.md`
 - Review backend API documentation
-- Contact: support@swapride.com
+- Contact: tchabeustephane2@gmail.com
 
 ---
 
