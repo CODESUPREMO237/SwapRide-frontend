@@ -525,3 +525,7 @@ For issues or questions:
 **Next Steps:** Continue implementing pages and components from the implementation guide
 
 **Happy coding! 🚀**
+
+## Architecture
+See [docs/architecture.md](docs/architecture.md) for clean architecture layers, folder structure, testing strategy, and Docker guidance.
+
