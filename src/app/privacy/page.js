@@ -190,9 +190,9 @@ export default function PrivacyPolicyPage() {
       title: '11. Contact Us',
       content: `If you have questions about this Privacy Policy or how we handle your information, please contact us at:
 
-Email: privacy@swapride.com
-Address: 123 Swap Street, San Francisco, CA 94105
-Phone: +1 (234) 567-890
+Email: tchabeustephane2@gmail.com
+Address: Tiko, Cameroon
+Phone: +237 679 398 551
 
 For privacy-related concerns or to exercise your rights, you can also write to our Data Protection Officer at the above address.`,
     },

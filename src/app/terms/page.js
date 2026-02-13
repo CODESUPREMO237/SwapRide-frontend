@@ -117,7 +117,7 @@ export default function TermsOfServicePage() {
 
 11.2. SwapRide may, at its discretion, assist in mediating disputes but is not obligated to do so.
 
-11.3. Any disputes with SwapRide shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.
+11.3. Any disputes with SwapRide shall be resolved through the competent courts in Cameroon.
 
 11.4. You agree to waive your right to participate in class action lawsuits or class-wide arbitration.`,
     },
@@ -143,7 +143,7 @@ export default function TermsOfServicePage() {
 
 14.3. Our failure to enforce any right or provision shall not constitute a waiver.
 
-14.4. These Terms are governed by the laws of the State of California, without regard to conflict of law principles.
+14.4. These Terms are governed by the laws of the Republic of Cameroon, without regard to conflict of law principles.
 
 14.5. You may not assign these Terms without our prior written consent.`,
     },
@@ -151,9 +151,9 @@ export default function TermsOfServicePage() {
       title: '15. Contact Information',
       content: `If you have questions about these Terms of Service, please contact us at:
 
-Email: legal@swapride.com
-Address: 123 Swap Street, San Francisco, CA 94105
-Phone: +1 (234) 567-890`,
+Email: tchabeustephane2@gmail.com
+Address: Tiko, Cameroon
+Phone: +237 679 398 551`,
     },
   ];
 

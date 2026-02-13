@@ -27,7 +27,7 @@ export default function FAQPage() {
     {
       category: 'General',
       question: 'Is SwapRide available in my area?',
-      answer: 'SwapRide is currently available in 50+ cities across the United States. Check our coverage map on the homepage or enter your location when searching for vehicles to see available listings in your area.',
+      answer: 'SwapRide is currently available in various cities across Cameroon. Check our coverage map on the homepage or enter your location when searching for vehicles to see available listings in your area.',
     },
     {
       category: 'Swapping',
@@ -122,7 +122,7 @@ export default function FAQPage() {
     {
       category: 'Technical',
       question: 'How do I report a bug or technical issue?',
-      answer: 'Use the "Contact Us" form or email support@swapride.com with details about the issue, including what you were trying to do, any error messages, and your browser/device information.',
+      answer: 'Use the "Contact Us" form or email tchabeustephane2@gmail.com with details about the issue, including what you were trying to do, any error messages, and your browser/device information.',
     },
   ];
 

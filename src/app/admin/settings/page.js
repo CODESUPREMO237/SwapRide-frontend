@@ -226,7 +226,7 @@ export default function AdminSettingsPage() {
                 </label>
                 <input
                   type="email"
-                  value={settings?.supportEmail || 'support@swapride.com'}
+                  value={settings?.supportEmail || 'tchabeustephane2@gmail.com'}
                   onChange={(e) => setSettings({...settings, supportEmail: e.target.value})}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />

@@ -238,8 +238,8 @@ export default function CookiesPage() {
                 If you have any questions about our use of cookies or this policy, please contact us:
               </p>
               <div className="space-y-2 text-gray-600">
-                <p><strong>Email:</strong> privacy@swapride.com</p>
-                <p><strong>Mail:</strong> SwapRide, Inc., 123 Market Street, San Francisco, CA 94103</p>
+                <p><strong>Email:</strong> tchabeustephane2@gmail.com</p>
+                <p><strong>Mail:</strong> SwapRide, Tiko, Cameroon</p>
               </div>
             </CardContent>
           </Card>
