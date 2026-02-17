@@ -151,9 +151,9 @@ export default function TermsOfServicePage() {
       title: '15. Contact Information',
       content: `If you have questions about these Terms of Service, please contact us at:
 
-Email: legal@swapride.com
-Address: 123 Swap Street, San Francisco, CA 94105
-Phone: +1 (234) 567-890`,
+Email: tchabeustephane2@gmail.com
+Address: Likomba Quater 11, Tiko, Southwest Region, Cameroon
+Phone: +237 679 398 551`,
     },
   ];
 
@@ -181,8 +181,8 @@ Phone: +1 (234) 567-890`,
                   Important: Please Read Carefully
                 </h3>
                 <p className="text-gray-700">
-                  These Terms of Service govern your use of SwapRide. By using our platform, 
-                  you agree to these terms. Please read them carefully and contact us if you 
+                  These Terms of Service govern your use of SwapRide. By using our platform,
+                  you agree to these terms. Please read them carefully and contact us if you
                   have any questions.
                 </p>
               </div>
@@ -213,8 +213,8 @@ Phone: +1 (234) 567-890`,
               Acknowledgment
             </h3>
             <p className="text-gray-700 mb-4">
-              By clicking "I Agree" during account creation or by using the SwapRide platform, 
-              you acknowledge that you have read, understood, and agree to be bound by these 
+              By clicking "I Agree" during account creation or by using the SwapRide platform,
+              you acknowledge that you have read, understood, and agree to be bound by these
               Terms of Service.
             </p>
             <div className="flex gap-4">

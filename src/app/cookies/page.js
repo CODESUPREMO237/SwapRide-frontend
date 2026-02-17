@@ -85,12 +85,12 @@ export default function CookiesPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Cookies are small text files that are placed on your device when you visit our website. 
-                They help us provide you with a better experience by remembering your preferences and 
+                Cookies are small text files that are placed on your device when you visit our website.
+                They help us provide you with a better experience by remembering your preferences and
                 understanding how you use our platform.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                We use cookies and similar technologies like web beacons, pixels, and local storage 
+                We use cookies and similar technologies like web beacons, pixels, and local storage
                 to enhance your experience, analyze site usage, and deliver personalized content.
               </p>
             </CardContent>
@@ -143,7 +143,7 @@ export default function CookiesPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 leading-relaxed mb-4">
-                We work with trusted third-party service providers who may also set cookies on your device. 
+                We work with trusted third-party service providers who may also set cookies on your device.
                 These include:
               </p>
               <ul className="list-disc list-inside text-gray-600 space-y-2 mb-4">
@@ -153,7 +153,7 @@ export default function CookiesPage() {
                 <li><strong>Intercom</strong> - For customer support chat</li>
               </ul>
               <p className="text-gray-600 leading-relaxed">
-                These third parties have their own privacy policies and cookie policies. We encourage 
+                These third parties have their own privacy policies and cookie policies. We encourage
                 you to review them to understand how they use your information.
               </p>
             </CardContent>
@@ -169,8 +169,8 @@ export default function CookiesPage() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-2">Cookie Settings</h4>
                   <p className="leading-relaxed">
-                    You can manage your cookie preferences through our cookie consent banner that 
-                    appears when you first visit our site. You can also update your preferences at 
+                    You can manage your cookie preferences through our cookie consent banner that
+                    appears when you first visit our site. You can also update your preferences at
                     any time by clicking the "Cookie Settings" link in the footer.
                   </p>
                 </div>
@@ -191,8 +191,8 @@ export default function CookiesPage() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-2">Important Note</h4>
                   <p className="leading-relaxed">
-                    Blocking or deleting cookies may impact your experience on our website. 
-                    Essential cookies are required for basic functionality, and disabling them 
+                    Blocking or deleting cookies may impact your experience on our website.
+                    Essential cookies are required for basic functionality, and disabling them
                     may prevent you from using certain features.
                   </p>
                 </div>
@@ -207,8 +207,8 @@ export default function CookiesPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 leading-relaxed">
-                Some browsers include a "Do Not Track" (DNT) feature that signals to websites that 
-                you do not want your online activity tracked. We respect DNT signals and will not 
+                Some browsers include a "Do Not Track" (DNT) feature that signals to websites that
+                you do not want your online activity tracked. We respect DNT signals and will not
                 track your activity when this feature is enabled in your browser.
               </p>
             </CardContent>
@@ -221,8 +221,8 @@ export default function CookiesPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 leading-relaxed">
-                We may update this Cookie Policy from time to time to reflect changes in our 
-                practices or applicable laws. We will notify you of any material changes by 
+                We may update this Cookie Policy from time to time to reflect changes in our
+                practices or applicable laws. We will notify you of any material changes by
                 posting the updated policy on this page and updating the "Last Updated" date.
               </p>
             </CardContent>
@@ -238,8 +238,8 @@ export default function CookiesPage() {
                 If you have any questions about our use of cookies or this policy, please contact us:
               </p>
               <div className="space-y-2 text-gray-600">
-                <p><strong>Email:</strong> privacy@swapride.com</p>
-                <p><strong>Mail:</strong> SwapRide, Inc., 123 Market Street, San Francisco, CA 94103</p>
+                <p><strong>Email:</strong> tchabeustephane2@gmail.com</p>
+                <p><strong>Mail:</strong> SwapRide, Likomba Quater 11, Tiko, Southwest Region, Cameroon</p>
               </div>
             </CardContent>
           </Card>

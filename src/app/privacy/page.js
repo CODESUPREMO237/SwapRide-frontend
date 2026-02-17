@@ -190,9 +190,9 @@ export default function PrivacyPolicyPage() {
       title: '11. Contact Us',
       content: `If you have questions about this Privacy Policy or how we handle your information, please contact us at:
 
-Email: privacy@swapride.com
-Address: 123 Swap Street, San Francisco, CA 94105
-Phone: +1 (234) 567-890
+Email: tchabeustephane2@gmail.com
+Address: Likomba Quater 11, Tiko, Southwest Region, Cameroon
+Phone: +237 679 398 551
 
 For privacy-related concerns or to exercise your rights, you can also write to our Data Protection Officer at the above address.`,
     },
@@ -209,7 +209,7 @@ For privacy-related concerns or to exercise your rights, you can also write to o
             Last Updated: {lastUpdated}
           </p>
           <p className="text-xl text-blue-100">
-            Your privacy is important to us. This policy explains how we collect, use, 
+            Your privacy is important to us. This policy explains how we collect, use,
             and protect your personal information.
           </p>
         </div>
@@ -253,7 +253,7 @@ For privacy-related concerns or to exercise your rights, you can also write to o
                     {section.title}
                   </h2>
                 </div>
-                
+
                 {section.content && (
                   <div className="text-gray-700 whitespace-pre-line leading-relaxed">
                     {section.content}
@@ -286,7 +286,7 @@ For privacy-related concerns or to exercise your rights, you can also write to o
               Your Privacy Matters to Us
             </h3>
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-              We're committed to protecting your privacy and being transparent about our practices. 
+              We're committed to protecting your privacy and being transparent about our practices.
               If you have any questions or concerns, please don't hesitate to reach out.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">

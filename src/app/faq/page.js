@@ -122,7 +122,7 @@ export default function FAQPage() {
     {
       category: 'Technical',
       question: 'How do I report a bug or technical issue?',
-      answer: 'Use the "Contact Us" form or email support@swapride.com with details about the issue, including what you were trying to do, any error messages, and your browser/device information.',
+      answer: 'Use the "Contact Us" form or email tchabeustephane2@gmail.com with details about the issue, including what you were trying to do, any error messages, and your browser/device information.',
     },
   ];
 
@@ -132,8 +132,8 @@ export default function FAQPage() {
 
   const filteredFaqs = faqs
     .filter(faq => selectedCategory === 'all' || faq.category === selectedCategory)
-    .filter(faq => 
-      searchQuery === '' || 
+    .filter(faq =>
+      searchQuery === '' ||
       faq.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
       faq.answer.toLowerCase().includes(searchQuery.toLowerCase())
     );
@@ -148,7 +148,7 @@ export default function FAQPage() {
           <p className="text-xl text-blue-100 mb-8">
             Find answers to common questions about SwapRide
           </p>
-          
+
           {/* Search Bar */}
           <div className="relative max-w-2xl mx-auto">
             <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-6 h-6" />
@@ -172,11 +172,10 @@ export default function FAQPage() {
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
-                className={`px-6 py-2 rounded-full font-medium transition-colors ${
-                  selectedCategory === category
+                className={`px-6 py-2 rounded-full font-medium transition-colors ${selectedCategory === category
                     ? 'bg-blue-600 text-white'
                     : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
-                }`}
+                  }`}
               >
                 {category === 'all' ? 'All Questions' : category}
               </button>
@@ -237,9 +236,9 @@ export default function FAQPage() {
             <Button variant="light" size="lg" href="/contact">
               Contact Support
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
+            <Button
+              variant="outline"
+              size="lg"
               className="border-white text-white hover:bg-white hover:text-blue-600"
               href="/help"
             >

@@ -15,7 +15,7 @@ export default function ContactPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('sending');
-    
+
     // Simulate sending
     setTimeout(() => {
       setStatus('success');
@@ -47,14 +47,14 @@ export default function ContactPage() {
           <div className="lg:col-span-1 space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
-              
+
               <div className="space-y-4">
                 <div className="flex items-start">
                   <Mail className="w-6 h-6 text-blue-600 mt-1 mr-3" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <a href="mailto:support@swapride.com" className="text-blue-600 hover:text-blue-800">
-                      support@swapride.com
+                    <a href="mailto:tchabeustephane2@gmail.com" className="text-blue-600 hover:text-blue-800">
+                      tchabeustephane2@gmail.com
                     </a>
                   </div>
                 </div>
@@ -63,8 +63,8 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-blue-600 mt-1 mr-3" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <a href="tel:+1234567890" className="text-blue-600 hover:text-blue-800">
-                      +1 (234) 567-890
+                    <a href="tel:+237679398551" className="text-blue-600 hover:text-blue-800">
+                      +237 679 398 551
                     </a>
                   </div>
                 </div>
@@ -74,9 +74,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900">Address</h3>
                     <p className="text-gray-600">
-                      123 Swap Street<br />
-                      San Francisco, CA 94105<br />
-                      United States
+                      Likomba Quater 11<br />
+                      Tiko, Southwest Region<br />
+                      Cameroon
                     </p>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ export default function ContactPage() {
           <div className="lg:col-span-2">
             <div className="bg-white rounded-lg shadow-md p-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
-              
+
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>

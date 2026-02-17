@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
-import { Briefcase, MapPin, Clock, DollarSign, Users, Zap, Heart, TrendingUp } from 'lucide-react';
+import { Briefcase, MapPin, Clock, Users, Zap, Heart, TrendingUp } from 'lucide-react';
 
 export default function CareersPage() {
   const [selectedDepartment, setSelectedDepartment] = useState('all');
@@ -11,75 +11,66 @@ export default function CareersPage() {
   const openPositions = [
     {
       id: 1,
-      title: 'Full Stack Developer',
-      department: 'Engineering',
-      location: 'Douala / Remote',
+      title: 'Vehicle Agent',
+      department: 'Operations',
+      location: 'Tiko / Douala',
       type: 'Full-time',
-      salary: '150,000 - 200,000 XAF',
-      description: 'Build and scale our platform with modern web technologies.',
+      salary: '80,000 - 120,000 XAF/month',
+      description: 'Source vehicles, meet sellers, inspect and list cars on the platform.',
     },
     {
       id: 2,
-      title: 'Product Manager',
-      department: 'Product',
-      location: 'Douala',
+      title: 'Customer Service Representative',
+      department: 'Operations',
+      location: 'Tiko',
       type: 'Full-time',
-      salary: '100,000 - 140,000 XAF',
-      description: 'Drive product strategy and deliver exceptional user experiences.',
+      salary: '60,000 - 90,000 XAF/month',
+      description: 'Assist buyers and sellers via phone and chat, resolve disputes and answer questions.',
     },
     {
       id: 3,
-      title: 'Customer Support Representative',
+      title: 'Driver / Delivery Agent',
       department: 'Operations',
-      location: 'Tiko / Douala',
+      location: 'Tiko / Douala / Buea',
       type: 'Full-time',
-      salary: '110,000 - 130,000 XAF',
-      description: 'Help our users succeed and build lasting relationships.',
+      salary: '50,000 - 75,000 XAF/month',
+      description: 'Transport vehicles and parts to buyers, handle pick-ups and deliveries across the region.',
     },
     {
       id: 4,
-      title: 'Marketing Manager',
+      title: 'Social Media Manager',
       department: 'Marketing',
-      location: 'Douala / Remote',
-      type: 'Full-time',
-      salary: '120,000 - 180,000 XAF',
-      description: 'Lead our marketing efforts and grow our brand across Cameroon.',
+      location: 'Tiko / Remote',
+      type: 'Part-time',
+      salary: '40,000 - 70,000 XAF/month',
+      description: 'Manage our Facebook, Instagram and WhatsApp presence, create posts and engage the community.',
     },
     {
       id: 5,
-      title: 'Mobile App Developer',
+      title: 'Web Developer',
       department: 'Engineering',
       location: 'Remote',
       type: 'Full-time',
-      salary: '180,000 - 380,000 XAF',
-      description: 'Build native mobile experiences for Android and iOS users.',
+      salary: '100,000 - 150,000 XAF/month',
+      description: 'Maintain and improve the SwapRide website, add new features, fix bugs.',
     },
     {
       id: 6,
-      title: 'Vehicle Inspector',
-      department: 'Operations',
-      location: 'Douala / Yaoundé / Bamenda',
-      type: 'Full-time',
-      salary: '300,000 - 350,000 XAF',
-      description: 'Inspect vehicles, verify condition, and ensure quality standards.',
+      title: 'Vehicle Photographer',
+      department: 'Marketing',
+      location: 'Tiko / Douala',
+      type: 'Part-time',
+      salary: '30,000 - 50,000 XAF/month',
+      description: 'Take quality photos and videos of vehicles for listings on the platform.',
     },
     {
       id: 7,
-      title: 'Sales Representative',
-      department: 'Sales',
-      location: 'Tiko / Douala',
+      title: 'Accountant / Bookkeeper',
+      department: 'Operations',
+      location: 'Tiko',
       type: 'Full-time',
-      salary: '80,000 - 150,000 XAF + Commission',
-      description: 'Connect with potential buyers and sellers, facilitate transactions.',
-    },
-    {
-      id: 8,
-      title: 'Content Creator',
-      department: 'Marketing',
-      location: 'Remote',
-      type: 'Part-time',
-      salary: '90,000 - 150,000 XAF',
-      description: 'Create engaging content for social media and marketing campaigns.',
+      salary: '70,000 - 100,000 XAF/month',
+      description: 'Manage finances, track transactions, handle invoicing and keep accurate records.',
     },
   ];
 
@@ -90,7 +81,7 @@ export default function CareersPage() {
       description: 'Comprehensive medical, dental, and vision insurance for you and your family',
     },
     {
-      icon: <DollarSign className="w-8 h-8" />,
+      icon: <span className="text-2xl font-bold">XAF</span>,
       title: 'Competitive Salary',
       description: 'Industry-leading compensation with equity options and performance bonuses',
     },
@@ -116,10 +107,10 @@ export default function CareersPage() {
     },
   ];
 
-  const departments = ['all', 'Engineering', 'Product', 'Operations', 'Marketing', 'Sales'];
+  const departments = ['all', 'Engineering', 'Operations', 'Marketing'];
 
-  const filteredPositions = selectedDepartment === 'all' 
-    ? openPositions 
+  const filteredPositions = selectedDepartment === 'all'
+    ? openPositions
     : openPositions.filter(pos => pos.department === selectedDepartment);
 
   return (
@@ -144,7 +135,7 @@ export default function CareersPage() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Why SwapRide?</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We are on a mission to transform how people trade vehicles. Join us in building 
+            We are on a mission to transform how people trade vehicles. Join us in building
             something meaningful.
           </p>
         </div>
@@ -168,7 +159,7 @@ export default function CareersPage() {
             <div className="text-5xl mb-4">🌍</div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Make an Impact</h3>
             <p className="text-gray-600">
-              Your work directly affects millions of users worldwide
+              Your work directly helps people across Cameroon trade vehicles
             </p>
           </Card>
         </div>
@@ -211,11 +202,10 @@ export default function CareersPage() {
             <button
               key={dept}
               onClick={() => setSelectedDepartment(dept)}
-              className={`px-6 py-2 rounded-full font-medium transition-colors ${
-                selectedDepartment === dept
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
-              }`}
+              className={`px-6 py-2 rounded-full font-medium transition-colors ${selectedDepartment === dept
+                ? 'bg-blue-600 text-white'
+                : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
+                }`}
             >
               {dept === 'all' ? 'All Departments' : dept}
             </button>
@@ -245,7 +235,7 @@ export default function CareersPage() {
                           {position.type}
                         </div>
                         <div className="flex items-center gap-1">
-                          <DollarSign className="w-4 h-4" />
+                          <span className="text-xs font-bold">XAF</span>
                           {position.salary}
                         </div>
                       </div>
@@ -253,8 +243,8 @@ export default function CareersPage() {
                   </div>
                 </div>
                 <div className="flex-shrink-0">
-                  <Button 
-                    variant="primary" 
+                  <Button
+                    variant="primary"
                     size="lg"
                     onClick={() => alert('Application form would open here')}
                   >
@@ -280,7 +270,7 @@ export default function CareersPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Don't See a Perfect Fit?</h2>
           <p className="text-xl text-blue-100 mb-8">
-            We are always looking for talented people. Send us your resume and tell us 
+            We are always looking for talented people. Send us your resume and tell us
             why you would be a great addition to the team.
           </p>
           <Button variant="light" size="lg" href="/contact">
